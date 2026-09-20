@@ -1,0 +1,60 @@
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт</title>
+
+    <style>
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #000;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        .button {
+            display: inline-block;
+            text-decoration: none;
+            font-size: clamp(40px, 10vw, 180px);
+            font-weight: 900;
+            line-height: 1.05;
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+
+        .button:hover {
+            transform: scale(1.06);
+        }
+
+        .button:active {
+            transform: scale(0.98);
+        }
+
+        .blue {
+            color: #0057B7;
+        }
+
+        .yellow {
+            color: #FFD700;
+        }
+    </style>
+</head>
+
+<body>
+    <a
+        class="button"
+        href="https://my.mail.ru/music/songs/%D0%BC%D0%B5%D0%B4%D0%BE%D0%B2%D0%B8%D0%B9-%D0%BF%D0%BE%D0%BB%D0%B8%D0%BD-%D1%81%D0%B5%D0%BF%D0%B0%D1%80%D0%B0%D1%82i%D1%81%D1%82-79e5ef6b8a30da12b875c23a35029668"
+    >
+        <span class="blue">ПУТIН</span>
+        <span class="yellow">ХУЙЛО</span>
+    </a>
+</body>
+</html>
+```
